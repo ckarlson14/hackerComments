@@ -1,0 +1,35 @@
+.stickToTop123 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+}
+
+.button-wrapper123 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: none;
+  width: 110px;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.button123 {
+  opacity: 0.4;
+}
+
+.button123:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.logo123 {
+  height: 44px;
+  width: 44px;
+}
