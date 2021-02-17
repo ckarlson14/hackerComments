@@ -3,7 +3,7 @@
 	"name": "Hacker Comments",
 	"description": "Read the comments on Hacker News Articles",
 	"permissions": ["storage","<all_urls>"],
-	"version": "1.0",
+	"version": "1.1",
 	"content_scripts": [
     {
       "matches": [
